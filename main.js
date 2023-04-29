@@ -33,7 +33,6 @@ form.addEventListener("submit", async (e) => {
     } else {
         const err = await response.text();
         alert(err);
-        console.log("i am here");
         console.error(err);
     }
     hideSpinner();

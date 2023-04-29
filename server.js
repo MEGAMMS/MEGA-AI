@@ -11,7 +11,7 @@ app.post("/dream", async (req, res) => {
         const prompt = req.body.prompt;
         console.log(req.body.prompt);
         const output = await runAPI(prompt);
-        // console.log(output);
+        console.log(output);
         res.send(output);
     } catch (err) {
         console.log(err);

@@ -2,7 +2,6 @@ import * as dotenv from "dotenv";
 import Replicate from "replicate";
 
 export async function runAPI(prompt) {
-    // throw new Error("i am here 5");
     try {
         dotenv.config();
         const replicate = new Replicate({
@@ -13,7 +12,7 @@ export async function runAPI(prompt) {
             {
                 input: {
                     prompt: prompt,
-                    // n_predictions: 1,
+                    // num_inference_steps: 500,
                 },
             }
         );
