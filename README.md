@@ -1,6 +1,7 @@
 # MEGA-AI
 
 MEGA-AI is a Web Application for generating images from text using stability ai using only vanilla javascript.
+
 The project is based on Fireship course for javascript.
 
 ## Dependencies
@@ -28,6 +29,7 @@ Run this command to start up the server:
 node server.js
 ```
 And now you are good to go.
+
 Test the app and i am waiting for your feedback😊.
 
 ## License
