@@ -1,6 +1,6 @@
 # MEGA-AI
 
-MEGA-AI is a Web Application for generating images from text using stability ai using only vanilla javascript.
+MEGA-AI is a Web Application for generating images from text using [stability-ai](https://replicate.com/stability-ai/stable-diffusion) using only vanilla javascript.
 
 The project is based on Fireship course for javascript.
 
